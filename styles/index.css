@@ -237,7 +237,7 @@ body{
 .get-in-div{
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
 }
 
 .get-in-touch{
@@ -258,7 +258,12 @@ body{
     width: 440px;
 }
 
-
+.form-label{
+    font-size: 23px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;  
+}
 
 
 
