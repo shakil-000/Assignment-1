@@ -69,7 +69,7 @@ header{
 .action-section{
     border-width: 1140px;
     height: 328px;
-    margin: 140px;
+   margin-top: 140px;
     
 }
 
@@ -113,6 +113,10 @@ header{
     font-optical-sizing: auto;
     font-style: normal;
 }
+ 
+.allign-subtitles-data{
+    text-align: center;
+}
 
 .sub-title{
     color: #4E47FF;
@@ -145,41 +149,75 @@ header{
 }
 
 .productive-users-section{
-    background-color: lightcyan;
+    background-color: rgb(231, 240, 255);
     border-radius: 24px;
-    border: 30px solid lightcyan;
+    border: 30px solid rgb(231, 240, 255);   
+}
+
+#productive-user{
+    padding: 140px;
+
+}
+
+body{ 
+  background-color: rgb(239, 244, 251);
 }
 
 
 
 
 
+.star-icon{
+    display: flex;
+    gap: 4px;
+}
 
+.name{
+    color: #757575;
+    font-size: 30px;
+    
+}
 
+.date{
+    color: #B3B3B3;
+    font-size: 25px;
+}
 
+.div-cart{
 
+    background-color: rgb(244, 242, 249);
+    width: 70%; 
+    border: 15px solid rgb(239, 244, 251);
+    border-radius: 30px;
+    justify-content: space-around;
+    padding: 20px;
+}
 
+.carts{
+    display: flex;
+    text-align: center;
+   
+}
 
+.allign{
+    text-align: center;
+}
 
+.reviewer-details{
+    display: flex;
+    gap: 10px;
+}
 
+.name-date{
+    text-align: left;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.users-feedback-section{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 
 
