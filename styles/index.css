@@ -203,6 +203,11 @@ body{
     text-align: center;
 }
 
+
+.image img{
+    border-radius: 9999px;
+}
+
 .reviewer-details{
     display: flex;
     gap: 10px;
