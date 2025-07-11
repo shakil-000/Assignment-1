@@ -5,14 +5,18 @@ nav{
    
 }
 
-.logo{
+.open-sans-logo{
     font-size: 34px;
     color: #4E47FF;
     font-weight:bolder;
     width: 99px;
     height: 51px;
     padding: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 
 .sign-up-button{
     background-color: #4E47FF;
@@ -24,11 +28,15 @@ nav{
     padding: 18px 35px;
 }
 
-.heading{
-    font-weight: bold;
-    font-size: 65px;
-    text-align: center;
+.open-sans-heading{
+  font-weight: bold;
+  font-size: 65px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
+
 
 .Banner{
     text-align: center;
@@ -45,30 +53,102 @@ header{
     
 }
 
+.description{
+    width: 517px;
+    height: 203px;
+    margin:23px;
+}
 
+.action-section-body{
+    display: flex;
+    gap: 220px;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+}
 
+.action-section{
+    border-width: 1140px;
+    height: 328px;
+    margin: 140px;
+    
+}
 
+.image-processing img{
+    width: 450px;
+    height: 350px;
+    border-radius: 48px;
+    
+}
 
+.title{
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
+.subtitle{
+   color: #96969f;
+   font-size: 24px; 
+   text-align: left;
+   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
+.button-animation:hover{
+   color: black;
+   background-color: yellow;
+   cursor: pointer;
+}
 
+.user-title{
+    color: #252432;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
+.sub-title{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
+.data{
+    color: #807070;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
+.subtitles-data{
+    display: flex;
+    justify-content:space-around;
+   
+}
 
+.productive-users-body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 142px;
+    margin-right: 142px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.productive-users-section{
+    background-color: lightcyan;
+    border-radius: 24px;
+    border: 30px solid lightcyan;
+}
 
 
 
